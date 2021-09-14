@@ -13,7 +13,7 @@ public class Idade {
         System.out.print("Digite a sua idade: ");
         int idade = sc.nextInt();
         if (idade >= 18){
-            System.out.printf("Parabens, %s %s. voce tem %d anos e pode se cadastrar.", nome, sobrenome, idade);
+            System.out.printf("Parabens, %s %s. Voce tem %d anos e pode se cadastrar.", nome, sobrenome, idade);
         } else {
             System.out.printf("Lamentamos, %s %s. Voce tem %d anos e nao pode se cadastrar.", nome, sobrenome, idade);
         }
