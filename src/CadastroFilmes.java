@@ -16,18 +16,20 @@ public class CadastroFilmes {
         switch (escolha){
             case 1:
                 System.out.println("Digite o nome do filme: ");
-                String nome = sc.next();
+                String nome = sc.nextLine();
+                sc.nextLine();
                 System.out.println("Digite a descricao do filme: ");
-                String descricao = sc.next();
+                String descricao = sc.nextLine();
                 System.out.println("Digite o genero do filme: ");
-                String genero = sc.next();
+                String genero = sc.nextLine();
                 System.out.println("Digite o ano do filme: ");
                 int ano = sc.nextInt();
                 System.out.printf("Parabens, o filme %s foi cadastrado com sucesso!" ,nome);
                 break;
             case 2:
                 System.out.println("Digite o nome da serie: ");
-                String nomeserie = sc.next();
+                String nomeserie = sc.nextLine();
+                sc.nextLine();
                 System.out.println("Digite o ano de lancamento da serie: ");
                 int anoserie = sc.nextInt();
                 System.out.println("Digite a produtora da serie: ");
@@ -36,7 +38,8 @@ public class CadastroFilmes {
                 break;
             case 3:
                 System.out.println("Digite o nome do documentario: ");
-                String nomedoc = sc.next();
+                String nomedoc = sc.nextLine();
+                sc.nextLine();
                 System.out.println("Digite o ano de lancamento do documetario: ");
                 int anodoc = sc.nextInt();
                 System.out.println("Digite o tema do documentario: ");
