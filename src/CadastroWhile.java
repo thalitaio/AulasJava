@@ -1,3 +1,12 @@
+/**
+ * - Cadastro de clientes
+ * - exibir menu com as opções: cadastrar, listar e sair
+ * - utilizar switch-case para o menu
+ * - o cadastro deve conter nome, sobrenome, rg e cpf
+ * - nome e sobrenome deve ter no mínimo 3 caracteres
+ * - rg deve conter no mínimo 4 caracteres e cpf 11 no total
+ */
+
 import java.util.Scanner;
 
 public class CadastroWhile {
