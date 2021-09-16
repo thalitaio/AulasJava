@@ -29,7 +29,7 @@ public class CadastroAll {
         System.out.println("================== Digite o numero correspondente à opção desejada ================= ");
         System.out.println("1 - Cadastrar Dev ");
         System.out.println("2 - Cadastrar Linguagem ");
-        System.out.println("3 - Sair ");
+        System.out.println("0 - Sair ");
 
         int escolha = sc.nextInt();
         sc.nextLine();
@@ -127,6 +127,7 @@ public class CadastroAll {
                 int opcao = sc.nextInt();
                 sc.nextLine();
 
+
                 switch (opcao) {
                     case 1:
                         System.out.println("Opcao escolhida: Front-End. ");
@@ -138,35 +139,35 @@ public class CadastroAll {
                         System.out.println("Opcao escolhida: Mobile. ");
                         break;
                     default:
-                        do {
-                            System.out.println("Opcao invalida. Digite uma opcao valida. ");
+                        System.out.println("Opcao invalida. Digite uma opcao valida. ");
+                        opcao = sc.nextInt();
+                        do{
                             if (opcao > 3) {
                                 System.out.println("Digite novamente: ");
                                 opcao = sc.nextInt();
                                 sc.nextLine();
-                                break;
                             } else {
                                 System.out.println("Cadastro realizado com sucesso!");
+                                invalido = false;
                             }
-                            while (true) ;
+                        }while (invalido);
+
+                        System.out.printf("Parabens, a linguagem foi cadastrado!");
+                }
+                break;
+
+                    case 0:
+                    System.out.println("Fim do programa. ");
+                    break;
+                    default:
+                        System.out.println("Opcao invalida. ");
+                        break;
 
 
-                            System.out.printf("Parabens, o dev foi cadastrado com sucesso!");
-                            break;
-
-
-                            case 3:
-                                System.out.println("Fim do programa. ");
-                                break;
-                            default:
-                                System.out.println("Opcao invalida. ");
-                                break;
-
-                        }
                 }
         }
     }
-}
+
 
 
 
