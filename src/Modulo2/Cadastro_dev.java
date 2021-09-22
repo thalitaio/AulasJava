@@ -1,3 +1,5 @@
+package Modulo2;
+
 import java.util.Scanner;
 
 public class Cadastro_dev {
