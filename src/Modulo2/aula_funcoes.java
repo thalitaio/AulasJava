@@ -1,4 +1,4 @@
-/*
+package Modulo2;/*
 _ Leia dois valores do tipo double, digitados pelo usuário.
 _ Realize a chamada para um método que faz a soma entre os dois números e retorna o resultado.
 _ Realize a chamada para um método que faz a subtração entre os dois números e retorna o resultado.

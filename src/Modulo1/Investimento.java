@@ -1,4 +1,4 @@
-/*
+package Modulo1;/*
 _ Calcule o retorno total de um investimento de R$ 5.000,00 durante 24 meses a uma taxa de juros de 2% ao mês.
   Utilize o laço FOR para imprimir o valor do retorno mês a mês.
 

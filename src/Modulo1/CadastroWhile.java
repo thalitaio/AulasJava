@@ -1,4 +1,4 @@
-/**
+package Modulo1; /**
  * - Cadastro de clientes
  * - exibir menu com as opções: cadastrar, listar e sair
  * - utilizar switch-case para o menu
@@ -15,8 +15,8 @@ public class CadastroWhile {
 
         System.out.println("================== Cadastro de Clientes ================= ");
         System.out.println("================== Digite o numero correspondente à opção desejada ================= ");
-        System.out.println("1 - Cadastrar Cliente ");
-        System.out.println("2 - Listar Cliente ");
+        System.out.println("1 - Cadastrar Modulo1.Cliente ");
+        System.out.println("2 - Listar Modulo1.Cliente ");
         System.out.println("3 - Sair ");
 
         int escolha = sc.nextInt();

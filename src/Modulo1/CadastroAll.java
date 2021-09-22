@@ -1,4 +1,4 @@
-/* O programa deve realizar o cadastro de um dev e uma linguagem.
+package Modulo1;/* O programa deve realizar o cadastro de um dev e uma linguagem.
   O programa deve ter um cabeçalho com o nome do programa.
   O programa deve exibir um menu com as opções cadastrar dev, cadastrar linguagem e sair.
   Deve ser utilizado a estrutura SWITCH-CASE para decidir sobre a opção escolhida pelo usuário.
@@ -81,7 +81,7 @@ public class CadastroAll {
                     System.out.println("Digite a idade do dev: ");
                     int idade = sc.nextInt();
                     if (idade < 1) {
-                        System.out.println("Idade invalida. Insira a sua idade novamente.  ");
+                        System.out.println("Modulo1.Idade invalida. Insira a sua idade novamente.  ");
                     } else {
                         invalido = false;
                     }

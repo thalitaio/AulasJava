@@ -1,4 +1,4 @@
-/*
+package Modulo1;/*
 _ Deve exibir um menu onde o usuário pode escolher números pares, números ímpares, números primos, calculo de juros compostos e sair.
 _ Na opção de números pares, o usuário poderá digitar um valor e o sistema exibirá todos os números pares de zero até o valor que o usuário digitou.
 _ Na opção de números ímpares, o usuário deverá digitar um valor e o sistema exibirá todos os números ímpares de zero até o valor digitado pelo usuário.
